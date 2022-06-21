@@ -1,0 +1,5 @@
+refrigirator
+air conditioner
+washing machine
+laptop
+mobile

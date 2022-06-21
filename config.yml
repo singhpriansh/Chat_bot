@@ -1,0 +1,15 @@
+language: en
+pipeline:
+  - name: SpacyNLP
+    model: External_data/spacy.word2vec.model
+  - name: SpacyTokenizer
+  # SpacyTokenizer is advanced, it also uses rules
+  # - name: WhitespaceTokenizer
+  - name: CountVectorsFeaturizer
+  # - name: CRFEntityExtractor
+  # - name: SklearnIntentClassfier
+  # DIETClassifer used instead of CRFEntityExtractor and SklearnIntentClassfier and is a transformer
+  - name: DIETClassifer
+    epochs: 200
+    random_seed: 2
+  - name: EntitySynonymMapper
