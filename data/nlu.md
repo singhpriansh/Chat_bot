@@ -46,3 +46,15 @@ data/lookup_table/category
 - c u
 - talk to you later
 - see you around
+
+## intent: give_information
+- I'm looking for [8 gb RAM](RAM)
+- I would like [10GB RAM](RAM)
+- I want a cemera of [65 megapixel](camera)
+- I'm looking for [15 mp](camera) camera
+- [25 megapixel](camera) camera
+- I was looking for [4000 mah](battery) battery backup
+- [3500 mah](battery)
+- around [16 GB](RAM) RAM
+- [8 GB](RAM) RAM
+- Well around [50 megapixel](camera) camera

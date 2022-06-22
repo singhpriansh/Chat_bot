@@ -2,6 +2,7 @@ language: en
 pipeline:
   - name: SpacyNLP
     model: External_data/spacy.word2vec.model
+  - name: profanity_analyzer.ProfanityAnalyzer # custom model
   - name: SpacyTokenizer
   # SpacyTokenizer is advanced, it also uses rules
   # - name: WhitespaceTokenizer
