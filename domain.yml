@@ -14,16 +14,39 @@ entities:
 - ram
 - battery
 - camera
+- budget
+
+slots:
+  category:
+    type: text
+  RAM:
+    type: text
+  battery:
+    type: text
+  camera:
+    type: text
+  budget:
+    type: text
 
 responses:
   utter_how_can_I_help:
   - text: Welcome. I'm yourShopping bot. I can help you with finding a phone or laptop and providing latest news.
   utter_ask_ram:
   - text: How much GB RAM are you looking for?
+  utter_wrong_ram:
+  - text: Pleae enter correct ram value.
   utter_ask_camera:
   - text: What megapixel camera are you looking?
+  utter_wrong_camera:
+  - text: Please give correct value.
   utter_ask_batery:
   - text: How mush battery capacity are you looking for in the mobile?
+  utter_wrong_batery:
+  - text: Please give correct value of battery.
+  utter_ask_budget:
+  - text: Whats your budget?
+  utter_wrong_budget:
+  - text: Please enter the budget in USD below 5000.
   utter_goodbye:
   - text: It was nice talking to you. Goodbye!
 

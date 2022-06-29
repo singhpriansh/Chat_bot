@@ -32,7 +32,7 @@
 - Show me the latest news for [mobiles](category)
 
 ## lookup:category
-data/lookup_table/category
+- data/lookup_table/category
 
 ## synonym:phone
 - mobile
@@ -51,10 +51,27 @@ data/lookup_table/category
 - I'm looking for [8 gb RAM](RAM)
 - I would like [10GB RAM](RAM)
 - I want a cemera of [65 megapixel](camera)
-- I'm looking for [15 mp](camera) camera
-- [25 megapixel](camera) camera
+- I'm looking for [15 mp camera](camera)
+- Like [25 megapixel](camera)
 - I was looking for [4000 mah](battery) battery backup
-- [3500 mah](battery)
+- Well the battery should be [4300 mah](battery)
+- Maybe [3500 mah](battery)
 - around [16 GB](RAM) RAM
-- [8 GB](RAM) RAM
+- About [8 GB](RAM)
 - Well around [50 megapixel](camera) camera
+- Well I would like [25 mp](camera) camera
+- A camera of [40 mp](camera)
+- around [8 GB RAM](ram)
+- [4 GB RAM](ram)
+- [5000 mah](battery)
+- I want [3500 mah](battery)
+- [25 megapixel](camera)
+- A camera of [40 mp](camera)
+- around [8 GB RAM](ram)
+
+# intent: budget_available
+- My budget is around [400 usd](budget)
+- Well I can spend around [300 usd](budget)
+- My total spending on the phone can be [250 usd](budget)
+- I can shell out approx [450 usd](budget)
+- Well its around [500 usd](budget)
